@@ -1,3 +1,4 @@
+/******************* GLOBAL *******************/
 body {
     font-family: 'Roboto', sans-serif;
 }
@@ -13,7 +14,6 @@ body {
 }
 
 /******************* HEADER *******************/
-
 header {
     height: 100vh;
     background-color: #1F2937;
@@ -84,12 +84,12 @@ li {
 
 /******************* MAIN INFORMATION *******************/
 .main-info {
-    height: 50vh;
+    height: 70vh;
 }
 
 .main-info h1 {
     font-size: 36px;
-    font-weight: 700;
+    font-weight: 900;
     color: #1F2937;
     text-align: center;
     padding: 40px 0px;
@@ -124,3 +124,28 @@ li {
 
 
 /******************* MAIN QUOTE *******************/
+.main-quote {
+    height: 70vh;
+    background-color: #E5E7EB;
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-quote p {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    color: #1F2937;
+    width: 80vw;
+}
+
+#thor {
+    font-weight: 700;
+    font-style: normal;
+    font-size: 28px;
+    margin-top: 10px;
+    text-align: right;
+}
