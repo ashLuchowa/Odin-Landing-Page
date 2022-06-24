@@ -40,6 +40,7 @@ ul {
 a {
     text-decoration: none;
     color: #E5E7EB;
+    cursor: pointer;
 }
 
 li {
@@ -69,6 +70,7 @@ li {
     border-radius: 5px;
     padding: 8px 25px;
     color: #FFF;
+    cursor: pointer;
 }
 
 .left-header {
@@ -88,7 +90,7 @@ li {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 60vh;
+    padding: 80px 0px;
 }
 
 .main-info h1 {
@@ -96,7 +98,6 @@ li {
     font-weight: 900;
     color: #1F2937;
     text-align: center;
-    padding-bottom: 80px;
 }
 
 .main-info-cube {
@@ -104,6 +105,7 @@ li {
     justify-content: space-evenly;
     gap: 20px;
     width: 60vw;
+    margin-top: 60px;
 }
 
 .main-cube {
@@ -115,7 +117,7 @@ li {
 
 .main-cube p {
     width: 150px;
-    margin: 10px 0px;
+    margin-top: 10px;
 }
 
 .cube {
@@ -139,12 +141,12 @@ li {
     align-items: center;
 }
 
-.main-quote p {
+.quote-content p {
     font-size: 36px;
     font-style: italic;
     font-weight: 300;
     color: #1F2937;
-    width: 80vw;
+    width: 60vw;
 }
 
 #thor {
@@ -184,6 +186,7 @@ li {
     border: 2px solid white;
     border-radius: 5px;
     font-size: 20px;
+    cursor: pointer;
 }
 
 
